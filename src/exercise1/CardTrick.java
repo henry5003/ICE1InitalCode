@@ -23,6 +23,8 @@ public class CardTrick {
             //card.setValue(insert call to random number generator here)
             // 
             card.setSuit(Card.SUITS[(int)Math.floor(Math.random()*4)]);
+		
+		hand[i] = card;
             //card.setSuit(Card.SUITS[insert call to random number between 0-3 here])
             // Hint: You can use Random -> random.nextInt(n) to get a random number between 0 and n-1 (inclusive)
             //       Don't worry about duplicates at this point
