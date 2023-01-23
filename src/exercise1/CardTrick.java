@@ -27,7 +27,7 @@ public class CardTrick {
 		System.out.println(hand[i]);
         }
 
-        // insert code to ask the user for Card value and suit, create their card
+        //// insert code to ask the user for Card value and suit, create their card
         // and search the hand here. 
         // Hint: You can ask for values 1 to 10, and then
         //       11 for jack, 12 for queen, etc. (remember arrays are 0-based though)
